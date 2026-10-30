@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <notebook 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="XML_Schema.xsd">
@@ -16,8 +16,8 @@
       <street>Тверская улица, 15</street>
       <index>123123</index>
     </address>
-    <phones type="work">495-22-22</phones>
-    <phones type="home">903-33-33</phones>
+    <phones phone="495-22-22" type="work"/>
+    <phones phone="903-33-33" type="home"/>    
   </person>
   <person id="p2" office="OF-001">
     <name>
@@ -29,6 +29,6 @@
       <street>Невский проспект, 2</street>
       <index>111222</index>
     </address>
-    <phones type="work">812-11-11</phones>
+    <phones phone="812-11-11" type="work"/>    
   </person>
 </notebook>
